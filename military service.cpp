@@ -68,12 +68,14 @@ of vacation (0 ≤ K ≤ 10, 000, 000)
                                                         count=0;
                                         }
                                 }
-                }                                                                                                                                                      //count no os 1s
+                }                            
+                //count no os 1s
                 int l=0;
                 for(l=0;l<k;l++)
                         tmp[l]=0;
 
-                l=0;                                                                                                                                                   for(j=(n*k);j<size;j++)
+                l=0;              
+                for(j=(n*k);j<size;j++)
                 {
                         for(i=0;i<n;i++)
                         {
